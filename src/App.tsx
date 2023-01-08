@@ -12,7 +12,7 @@ function App() {
       <div className="card">
         <img src={titelbild} alt=''/>
         <div className="card-body">
-          <h5 className="card-title">How it works</h5>
+          <h5 className="card-title"></h5>
           <p className="card-text">
             Alexandra digged her way deep in my heart ❤️
             Here i want to summarize her best points in three different categories
