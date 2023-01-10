@@ -1,6 +1,6 @@
 import anfahrt from './../images/batur.jpg'
 
-export default function Packliste() {
+export default function Actions() {
   const date = new Date();
   const day = date.getDate();
   console.log(date)
@@ -8,6 +8,12 @@ export default function Packliste() {
   switch (day) {
     case 8:
       message = "Alex is helping her friends when they need her"
+      break;
+    case 9:
+      message = "Alex is a good kisser & cuddle partner"
+      break;
+    case 10:
+      message = "Alex can cook amazing filled chicken"
       break;
     default:
       break;

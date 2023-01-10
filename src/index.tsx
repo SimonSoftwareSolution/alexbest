@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Anfahrt from './pages/anfahrt';
+import Character from './pages/character';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../src/App.css';
-import Packliste from './pages/packliste';
+import Actions from './pages/actions';
 import Body from './pages/body';
 
 const root = ReactDOM.createRoot(
@@ -18,8 +18,8 @@ root.render(
   <BrowserRouter>
       <Routes>
       <Route path="/" element={<App />} />
-      <Route path="character" element={<Anfahrt />} />
-      <Route path="actions" element={<Packliste />} />
+      <Route path="character" element={<Character />} />
+      <Route path="actions" element={<Actions />} />
       <Route path="body" element={<Body />} />
     </Routes>
   </BrowserRouter>

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/03673c25-7ab2-49dd-b096-5a4ab0da50b1/AppServices/subscriptions/03673c25-7ab2-49dd-b096-5a4ab0da50b1/resourceGroups/myalexandra_group/providers/Microsoft.Web/sites/myalexandra",
+    "appService.deploySubpath": "."
+}

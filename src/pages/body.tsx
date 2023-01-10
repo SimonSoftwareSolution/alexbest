@@ -9,6 +9,12 @@ export default function Body() {
     case 8:
       message = "Alex skin is insane soft"
       break;
+    case 9:
+      message = "Alex has the perfect height"
+      break;
+    case 10:
+      message = "Alex breasts are perfect"
+      break;
     default:
       break;
   }
